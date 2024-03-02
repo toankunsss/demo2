@@ -1,20 +1,24 @@
 {
-    "name": "demo2",
-    "version": "1.0.0",
-    "description": "A simple demo project",
-    "scripts": {
-        "build": "echo \"No build specified\" && exit 1",
-        "test": "echo \"No test specified\" && exit 1",
-       
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/toankunsss/demo2.git"
-    },
-    "author": "Your Name",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/toankunsss/demo2/issues"
-    },
-    "homepage": "https://github.com/toankunsss/demo2#readme"
+  "name": "special-offer",
+  "version": "1.0.0",
+  "description": "A special offer webpage",
+  "scripts": {
+    "start": "echo \"No server setup required for static HTML files.\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toankunsss/demo2.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "demo2"
+  ],
+  "author": "van toan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toankunsss/demo2/issues"
+  },
+  "homepage": "https://github.com/toankunsss/demo2#readme"
 }
