@@ -1,24 +1,19 @@
 {
-  "name": "special-offer",
+  "name": "express-hello-world",
   "version": "1.0.0",
-  "description": "A special offer webpage",
+  "description": "Express Hello World on Render",
+  "main": "app.js",
+  "repository": "https://github.com/render-examples/express-hello-world",
+  "author": "Render Developers",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "start": "echo \"No server setup required for static HTML files.\" && exit 0"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/toankunsss/demo2.git"
+  "dependencies": {
+    "express": "^4.18.2"
   },
-  "keywords": [
-    "html",
-    "css",
-    "javascript",
-    "demo2"
-  ],
-  "author": "van toan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/toankunsss/demo2/issues"
-  },
-  "homepage": "https://github.com/toankunsss/demo2#readme"
+  "engines": {
+    "node": ">=14"
+  }
 }
